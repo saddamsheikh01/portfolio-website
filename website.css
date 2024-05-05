@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+#logo {
+   color:white;
+   font-size:25px;
+   font-weight:500;
+   margin-left:5%;
+}
+.navbar {
+    background-image:linear-gradient(to bottom right,#4ca1af , #c4e0e5);
+}
+.icon-color {
+    background-color: white;
+}
+.homesection{
+     background-image:linear-gradient(to bottom right,#4ca1af , #c4e0e5);
+     height:105vh;
+    background-size:cover;
+}
+.nav-item{
+  font-size:18px;
+  color:white;
+  text-decoration:none;
+  font-weight:500;
+  margin-left:35px;
+}
+.nav-item:hover{
+  background:linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+.navbar-nav a.active,
+.nav-item:hover{
+     background:linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
+
+.button {
+  color: #0c0521;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: white;
+    width: 160px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 20px;
+    margin-right: 10px;
+    text-align:center;
+}
+.button:hover{
+  background:linear-gradient(to right,#EE9CA7 , #FFDDE1);
+  text-decoration:none;
+  color:white;
+}
+.btn {
+  font-weight:600;
+  color:#0c0521;
+  font-size:15px;
+  background-color:white;
+  width: 80px;
+  height: 35px;
+  border-width:0px;
+  border-radius: 6px;
+ margin-left:35px;
+ margin-top:5px;
+}
+.btn:hover{
+  background:linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+  color:white;
+}
+.title{
+    font-size:25px;    
+}
+.name{
+    color:orangered;
+}
+.img{
+    margin-top:10%;
+    height:360px;
+    width:360x;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+     border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-width:0; 
+  }
+  .text{
+    margin-top:10%;
+  }
+  .icon1{
+    font-size:25px;
+    color:white;
+}
+.icon-container {
+    background-color:transparent;
+   border-color:white;
+   border-style:solid;
+    border-radius: 40px;
+    margin:6px;
+    padding-top: 16px;
+    padding-bottom: 9px;
+    padding-right: 12px;
+    padding-left: 16px;
+    border-width:0.6px;
+}
+.icon-container:hover{
+    background:linear-gradient(to right,#EE9CA7 , #FFDDE1);
+    text-decoration:none;
+   
+}
+
+
+  .aboutmesection {
+    background-image:radial-gradient(#FDFCFB , #E2D1C3);
+}
+.heading1 {
+   font-family: "Roboto";
+   font-size: 36px;
+   color: #0c0521;
+   font-weight: bold;
+}
+.img2 {
+   margin-top:15%;
+    height:360px;
+    width:360x;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+     border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+   border-width:0;
+}
+.paragraph {
+  color:#1f2933;
+  font-size:20px;
+  font-weight:500;  
+}
+
+
+.skills-section {
+    background-image:linear-gradient(to left,#4ca1af , #c4e0e5);
+    height:80vh;
+    background-size:cover;  
+}
+.heading3 {
+    font-family: "Roboto";
+    font-size: 36px;
+    color: #0c0521;
+    font-weight: bold;
+    margin-bottom:13%;  
+ }
+.skills-card {
+   background-color: #323f4b;
+   border-radius: 8px;
+   border-width: 0px;
+   width:200px;
+   padding:10px; 
+}
+.skills-card-image {
+   width: 75px;
+   height: 75px;
+}
+.skills-card-title {
+   color: white;
+   font-family: "roboto";
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.projects-section {
+    background-image:radial-gradient(#FDFCFB , #E2D1C3);
+}
+.card-container {
+   background-color: #323f4b;
+   border-radius: 8px;
+   width:400px;
+}
+
+.img3 {
+   width: 100%;
+}
+
+.p {
+   font-family: "Roboto";
+   font-size: 15px;
+   color: #E2D1C3;
+   font-weight: 500;
+}
+
+.card-heading {
+   font-family: "Roboto";
+   font-size: 25px;
+   color: white;
+   font-weight: 500;
+}
+
+.para {
+   font-family: "Roboto";
+   font-size: 18px;
+   color:#E2D1C3;
+}
+
+.projects-card-link {
+   color: #cced00;
+   font-family: "Roboto";
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.services-section {
+    background-image:linear-gradient(to right,#4ca1af , #c4e0e5);
+}
+
+.h2 {
+  font-family: "Roboto";
+  font-size: 39px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-container {
+  background-color: #323f4b;
+  border-radius: 8px;
+  width:300px;
+}
+
+.img4 {
+  height: 65px;
+  width: 65px;
+}
+
+
+.contact-section{
+    background-image:radial-gradient(#FDFCFB , #E2D1C3);
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.para1 {
+    font-family: "Roboto";
+    color:#323f4b;
+    font-size: 14px;
+}
+
+.heading2{
+    font-size:20px;
+    color:orangered;
+    font-weight: 500;
+}
